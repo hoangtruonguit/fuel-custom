@@ -15,9 +15,9 @@ require COREPATH.'bootstrap.php';
 
 
 //Config to load .env
-require VENDORPATH . '/autoload.php';
-$dotenv = new Dotenv\Dotenv(APPPATH);
-$dotenv->load();
+//require VENDORPATH . '/autoload.php';
+//$dotenv = new Dotenv\Dotenv(APPPATH);
+////$dotenv->load();
 
 \Autoloader::add_classes(array(
 	// Add classes you want to override here
